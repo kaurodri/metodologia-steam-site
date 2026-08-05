@@ -21,7 +21,7 @@ const Logo = styled.img`
 `;
 
 const SiteName = styled.span`
-    color: black;
+    color: white;
     font-size: 1.5rem;
     font-weight: bold;
     margin-left: 10px;
@@ -38,7 +38,7 @@ const Links = styled(Link)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     margin-left: 20px;
     padding: 10px 20px;
@@ -54,14 +54,14 @@ const LoginButton = styled.button`
     background: transparent;
     border: 2px solid white;
     border-radius: 25px;
-    color: black;
+    color: white;
     font-weight: bold;
     margin-left: 20px;
     cursor: pointer;
     transition: all 0.3s ease;
     
     &:hover {
-        background-color: black;
+        background-color: white;
         color: #333;
         filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
     }
@@ -73,8 +73,8 @@ export default function Navbar() {
         <Nav>
             <LeftContainer>
                 <Links to="/">
-                    <Logo src="/icon-STEAM.png" alt="Logo" />
-                    <SiteName>STEAM HUB</SiteName>
+                    <Logo src="/icon-ASCII.png" alt="Logo" />
+                    <SiteName>ASCII HUB</SiteName>
                 </Links>
             </LeftContainer>
     

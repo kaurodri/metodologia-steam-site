@@ -20,7 +20,7 @@ const Main = styled.div`
 export default function Ranking() {
     return (
         <Main>
-            <h1>Front [ Ranking ] STEAM HUB</h1>
+            <h1>Front [ Ranking ] ASCII HUB</h1>
         </Main>
     )
 }

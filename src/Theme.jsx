@@ -14,6 +14,6 @@ export const theme = {
             x500: '#0d1117',
             x600: '#010409',
         },
-        text: '#010409',
+        text: '#ffff',
     }
 }

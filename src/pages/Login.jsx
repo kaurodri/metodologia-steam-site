@@ -20,7 +20,7 @@ const Main = styled.div`
 export default function Login() {
     return (
         <Main>
-            <h1>Front [ Login ] STEAM HUB</h1>
+            <h1>Front [ Login ] ASCII HUB</h1>
         </Main>
     )
 }

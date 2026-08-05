@@ -16,7 +16,7 @@ const Main = styled.div`
 export default function Section() {
     return (
         <Main>
-            <h1>Front STEAM HUB</h1>
+            <h1>Front ASCII HUB</h1>
         </Main>
     )
 }
