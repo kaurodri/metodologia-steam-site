@@ -20,7 +20,7 @@ const Main = styled.div`
 export default function Parcerias() {
     return (
         <Main>
-            <h1>Front [ Parcerias ] STEAM HUB</h1>
+            <h1>Front [ Parcerias ] ASCII HUB</h1>
         </Main>
     )
 }
