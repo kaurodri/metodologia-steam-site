@@ -1,19 +1,33 @@
 export const theme = {
     colors: {
-        primary: {
-            x100: '#d4f1f4',
-            x200: '#75e6da',
-            x300: '#189ab4',
-            x400: '#05445e',
+        purple: '#6B46C1',
+        purpleDark: '#553396',
+        purpleLight: '#F3EEFC',
+        pink: '#FF6B9D',
+        pinkDark: '#e0568a',
+        pinkLight: '#FFF0F5',
+        cyan: '#00D9FF',
+        cyanDark: '#00b8d9',
+        cyanLight: '#E6FBFF',
+        gray: {
+            x50: '#F9FAFB',
+            x100: '#F3F4F6',
+            x200: '#E5E7EB',
+            x300: '#D1D5DB',
+            x500: '#6B7280',
+            x600: '#4B5563',
+            x700: '#374151',
+            x900: '#111827',
         },
-        background: {
-            x100: '#ddd',
-            x200: '#cccccc',
-            x300: '#31363df1',
-            x400: '#161b22',
-            x500: '#0d1117',
-            x600: '#010409',
-        },
-        text: '#ffff',
-    }
+        white: '#FFFFFF',
+        text: '#1F2937',
+    },
+    gradients: {
+        primary: 'linear-gradient(90deg, #6B46C1 0%, #FF6B9D 50%, #00D9FF 100%)',
+        secondary: 'linear-gradient(135deg, #F3EEFC 0%, #FFF0F5 100%)',
+    },
+    fonts: {
+        heading: "'Poppins', 'Segoe UI', sans-serif",
+        body: "'Inter', 'Segoe UI', sans-serif",
+    },
 }

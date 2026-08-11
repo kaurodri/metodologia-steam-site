@@ -3,8 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from './GlobalStyle.jsx';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Home, ErrorPage } from './routes';
-import { Login, Parcerias, Ranking } from './pages';
+import { Home, Materiais, Formacao, Contato, NotFound } from './pages';
 import { theme } from './Theme.jsx';
 import App from './App.jsx';
 
@@ -12,23 +11,27 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <ErrorPage />,
+    errorElement: <NotFound />,
     children: [
       {
         path: "/",
         element: <Home />,
       },
       {
-        path: "login",
-        element: <Login />,
+        path: "materiais",
+        element: <Materiais />,
       },
       {
-        path: "ranking",
-        element: <Ranking />,
+        path: "formacao",
+        element: <Formacao />,
       },
       {
-        path: "parcerias",
-        element: <Parcerias />,
+        path: "contato",
+        element: <Contato />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
       },
     ]
   },

@@ -1,3 +1,5 @@
-export { default as Login } from './Login.jsx';
-export { default as Parcerias } from './Parcerias.jsx';
-export { default as Ranking } from './Ranking.jsx';
+export { default as Home } from './Home.jsx';
+export { default as Materiais } from './Materiais.jsx';
+export { default as Formacao } from './Formacao.jsx';
+export { default as Contato } from './Contato.jsx';
+export { default as NotFound } from './NotFound.jsx';
