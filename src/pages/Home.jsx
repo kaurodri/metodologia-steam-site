@@ -210,6 +210,29 @@ const CtaSection = styled(Section)`
     text-align: center;
     color: white;
 `;
+const CaixaYoutube = styled.div`
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+`;
+
+const CardVideo = styled.div`
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+`;
+
+const ImagemVideo = styled.img`
+    width: 100%;
+    border-radius: 10px;
+`;
+
+const LinhaVideos = styled.div`
+    flex-direction: row;
+    display: flex;
+`
 
 export default function Home() {
     return (
@@ -410,6 +433,26 @@ export default function Home() {
                     </FadeIn>
                 </Container>
             </Section>
+
+            <CaixaYoutube>
+                <h1>Nossa playlist do Youtube</h1>
+
+                <LinhaVideos>
+                    <CardVideo>
+                        <ImagemVideo src="images/capa-steam.png" />
+                        <p>Vídeo 1</p>
+                    </CardVideo>
+
+                    <CardVideo>
+                        <ImagemVideo src="images/capa-steam.png" />
+                        <p>Vídeo 2</p>
+                    </CardVideo>
+                    <CardVideo>
+                        <ImagemVideo src="images/capa-steam.png" />
+                        <p>Vídeo 3</p>
+                    </CardVideo>
+                </LinhaVideos>
+            </CaixaYoutube>
 
             <CtaSection>
                 <Container>

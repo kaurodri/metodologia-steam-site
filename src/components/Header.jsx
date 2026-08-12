@@ -110,6 +110,8 @@ const MobileNavItem = styled(NavLink)`
 const navItems = [
     { label: 'Início', to: '/' },
     { label: 'Material Didático', to: '/materiais' },
+    { label: 'Ações', to: '/acoes'},
+    { label: 'Conteúdos' , to: '/conteudos'},
     { label: 'Formação', to: '/formacao' },
     { label: 'Contato', to: '/contato' },
 ];
