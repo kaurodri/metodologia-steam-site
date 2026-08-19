@@ -223,8 +223,8 @@ export default function Home() {
                                 Metodologia <HeroHighlight>STEAM</HeroHighlight>
                             </HeroTitle>
                             <HeroSubtitle>
-                                Incentivando meninas a ingressarem nas áreas de Ciência, Tecnologia,
-                                Engenharia, Artes e Matemática
+                                Incentivando estudantes a ingressarem nas áreas STEAM (Ciência, Tecnologia,
+                                Engenharia, Artes e Matemática)
                             </HeroSubtitle>
                             <HeroActions>
                                 <ButtonWhite as={Link} to="/materiais">
@@ -245,10 +245,10 @@ export default function Home() {
                         <FadeInUp>
                             <SectionTitle><GradientText>O que é a Ação?</GradientText></SectionTitle>
                             <AboutText>
-                                A Metodologia STEAM é um projeto de iniciação científica dedicado ao
-                                desenvolvimento de material didático para oficinas de robótica e
-                                circuitos elétricos. Nosso objetivo principal é incentivar meninas do
-                                ensino fundamental a descobrirem sua paixão pelas áreas STEAM.
+                                A Metodologia STEAM é um projeto de Iniciação Científica dedicado ao
+                                desenvolvimento de recursos didáticos para oficinas de robótica e
+                                circuitos elétricos. Nosso objetivo principal é incentivar estudantes da
+                                Educação Básica a descobrirem sua paixão pelas áreas STEAM.
                             </AboutText>
                             <AboutText>
                                 Utilizamos uma abordagem inovadora que combina a{' '}
@@ -310,7 +310,7 @@ export default function Home() {
                                         <div>
                                             <h3>Público-Alvo</h3>
                                             <p style={{ fontSize: '1.125rem', color: '#374151' }}>
-                                                <strong>Estudantes do Ensino Fundamental</strong>
+                                                <strong>Estudantes da Educação Básica </strong>
                                             </p>
                                             <p style={{ color: '#4B5563', marginTop: '0.5rem' }}>
                                                 Com foco especial em meninas, incentivando sua
@@ -327,7 +327,7 @@ export default function Home() {
                                         </IconTile>
                                         <div>
                                             <h3>Impacto Alcançado</h3>
-                                            <ImpactNumber>160+</ImpactNumber>
+                                            <ImpactNumber>260+</ImpactNumber>
                                             <p style={{ fontSize: '1.125rem', color: '#374151' }}>
                                                 pessoas já foram impactadas por nossas oficinas e
                                                 materiais didáticos.
@@ -348,6 +348,15 @@ export default function Home() {
                         Oficinas práticas e interativas que combinam robótica, circuitos elétricos e
                         metodologia ativa
                     </WorkshopSubtitle>
+
+                    <WorkshopSubtitle>
+                        
+                        <WorkshopLink to="/formacao" $color="#6B46C1">
+                                    Saiba mais sobre nossas atividades<ArrowRight size={16} />
+                                </WorkshopLink>
+
+                    </WorkshopSubtitle>
+                    
 
                     <WorkshopGrid>
                         <FadeInUp>
@@ -392,13 +401,12 @@ export default function Home() {
                                     <BookOpen color="#00b8d9" size={32} />
                                 </IconBox>
                                 <h3 style={{ fontSize: '1.5rem', marginBottom: '0.75rem', color: '#111827' }}>
-                                    Metodologia Ativa
+                                    Materiais para Docentes
                                 </h3>
                                 <p style={{ color: '#374151', marginBottom: '1rem' }}>
-                                    Aprendizado colaborativo onde você é o protagonista da sua
-                                    própria jornada.
+                                    Apresentação de métodos e técnicas para formação de alunos.
                                 </p>
-                                <WorkshopLink to="/formacao" $color="#00b8d9">
+                                <WorkshopLink to="/materiais" $color="#00b8d9">
                                     Saiba mais <ArrowRight size={16} />
                                 </WorkshopLink>
                             </CardElevated>
