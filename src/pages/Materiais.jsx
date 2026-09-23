@@ -27,6 +27,7 @@ const materials = [
         format: 'PDF',
         icon: FileText,
         color: 'purple',
+        pasta: 'https://drive.google.com/drive/folders/13WO6UjnpQl5mineOOlQH5ei8b5QOy38Z',
     },
     {
         id: 2,
@@ -37,46 +38,40 @@ const materials = [
         format: 'PDF + Vídeos',
         icon: Code,
         color: 'pink',
+        pasta: 'https://drive.google.com/drive/folders/1ghUhiFqH8SsZquljQtxAt0OB9USypfLY',
     },
     {
         id: 3,
         title: 'Metodologia Ativa na Prática',
-        description: 'Estratégias e técnicas para implementar aprendizado ativo em suas oficinas e aulas.',
+        description: 'Materiais para Professores e Mentores: Implementando aprendizado ativo em suas oficinas e aulas.',
         category: 'Metodologia',
         level: 'Avançado',
         format: 'PDF + Guia',
         icon: BookOpen,
         color: 'cyan',
+        pasta: 'https://drive.google.com/drive/folders/1WCdZv9GsAmRr26fZrzajKTXgAOYw8n-S',
     },
     {
         id: 4,
-        title: 'Experimentos de Eletrônica Criativa',
+        title: 'Experimentos de Eletrônica',
         description: 'Projetos inovadores combinando arte e eletrônica para estimular criatividade.',
         category: 'Circuitos Elétricos',
         level: 'Intermediário',
         format: 'PDF + Imagens',
         icon: FileText,
         color: 'purple',
+        pasta: 'https://drive.google.com/drive/folders/1xiovckTDhO_ypOsStRJJswTCMXxm42kO',
     },
     {
         id: 5,
-        title: 'Programação para Robôs',
-        description: 'Tutorial completo de programação com linguagens visuais e código para robótica.',
+        title: 'Iniciação a Programação',
+        description: 'Tutorial completo de programação com linguagens visuais e código.',
         category: 'Robótica',
         level: 'Intermediário',
         format: 'PDF + Código',
         icon: Code,
         color: 'pink',
-    },
-    {
-        id: 6,
-        title: 'Inclusão de Meninas em STEAM',
-        description: 'Guia de boas práticas para criar ambientes inclusivos e acolhedores para meninas.',
-        category: 'Metodologia',
-        level: 'Iniciante',
-        format: 'PDF',
-        icon: BookOpen,
-        color: 'cyan',
+        pasta: 'https://drive.google.com/drive/folders/1DcVSu6pFRIBTuj-GGpVQXytL43248CaS',
     },
 ];
 
@@ -225,7 +220,7 @@ export default function Materiais() {
                                             <FormatLabel>{material.format}</FormatLabel>
                                             <SmallButtonPrimary type="button">
                                                 <Download size={16} />
-                                                Download
+                                                Material
                                             </SmallButtonPrimary>
                                         </MaterialFooter>
                                     </CardElevated>
