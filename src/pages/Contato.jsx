@@ -239,21 +239,8 @@ export default function Contato() {
                                     </IconBox>
                                     <InfoTitle>Email</InfoTitle>
                                     <InfoText>Envie-nos um email e responderemos em breve.</InfoText>
-                                    <InfoLink href="mailto:contato@steammetodologia.com" $color="#6B46C1">
-                                        contato@steammetodologia.com
-                                    </InfoLink>
-                                </CardElevated>
-                            </FadeInUp>
-
-                            <FadeInUp $delay="0.1s">
-                                <CardElevated>
-                                    <IconBox $bg="#fce7f3">
-                                        <Phone color="#FF6B9D" size={32} />
-                                    </IconBox>
-                                    <InfoTitle>Telefone</InfoTitle>
-                                    <InfoText>Ligue para nós durante o horário comercial.</InfoText>
-                                    <InfoLink href="tel:+5511999999999" $color="#FF6B9D">
-                                        +55 (11) 99999-9999
+                                    <InfoLink href="mailto:educacaosteamgepit@gmail.com" $color="#6B46C1">
+                                        educacaosteamgepit@gmail.com
                                     </InfoLink>
                                 </CardElevated>
                             </FadeInUp>
@@ -265,9 +252,9 @@ export default function Contato() {
                                     </IconBox>
                                     <InfoTitle>Localização</InfoTitle>
                                     <InfoText style={{ marginBottom: 0 }}>
-                                        Rua da Inovação, 123<br />
-                                        São Paulo, SP 01310-100<br />
-                                        Brasil
+                                        CAp/UFU, Rua Adutora São Pedro, 40<br />
+                                        Nossa Senhora Aparecida,<br />
+                                        Uberlândia - MG, Brasil
                                     </InfoText>
                                 </CardElevated>
                             </FadeInUp>
@@ -275,92 +262,13 @@ export default function Contato() {
 
                         <FadeIn>
                             <FormCard>
-                                <FormTitle>Envie uma Mensagem</FormTitle>
-
-                                {submitted ? (
-                                    <SuccessBox>
-                                        <SuccessIcon>✓</SuccessIcon>
-                                        <SuccessTitle>Mensagem Enviada!</SuccessTitle>
-                                        <SuccessText>
-                                            Obrigado por entrar em contato. Responderemos em breve!
-                                        </SuccessText>
-                                    </SuccessBox>
-                                ) : (
-                                    <Form onSubmit={handleSubmit}>
-                                        <Field>
-                                            <Label htmlFor="name">Nome Completo</Label>
-                                            <Input
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                value={formData.name}
-                                                onChange={handleChange}
-                                                required
-                                                placeholder="Seu nome"
-                                            />
-                                        </Field>
-
-                                        <Field>
-                                            <Label htmlFor="email">Email</Label>
-                                            <Input
-                                                type="email"
-                                                id="email"
-                                                name="email"
-                                                value={formData.email}
-                                                onChange={handleChange}
-                                                required
-                                                placeholder="seu@email.com"
-                                            />
-                                        </Field>
-
-                                        <Field>
-                                            <Label htmlFor="phone">Telefone (Opcional)</Label>
-                                            <Input
-                                                type="tel"
-                                                id="phone"
-                                                name="phone"
-                                                value={formData.phone}
-                                                onChange={handleChange}
-                                                placeholder="(11) 99999-9999"
-                                            />
-                                        </Field>
-
-                                        <Field>
-                                            <Label htmlFor="subject">Assunto</Label>
-                                            <Select
-                                                id="subject"
-                                                name="subject"
-                                                value={formData.subject}
-                                                onChange={handleChange}
-                                                required
-                                            >
-                                                <option value="">Selecione um assunto</option>
-                                                <option value="duvida">Dúvida sobre Materiais</option>
-                                                <option value="formacao">Informações sobre Formação</option>
-                                                <option value="colaboracao">Proposta de Colaboração</option>
-                                                <option value="outro">Outro</option>
-                                            </Select>
-                                        </Field>
-
-                                        <Field>
-                                            <Label htmlFor="message">Mensagem</Label>
-                                            <Textarea
-                                                id="message"
-                                                name="message"
-                                                value={formData.message}
-                                                onChange={handleChange}
-                                                required
-                                                rows={6}
-                                                placeholder="Sua mensagem aqui..."
-                                            />
-                                        </Field>
-
+                                <FormTitle>Quer Participar? Preencha nosso formulário!</FormTitle>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSceUxIEtW_Y7thkNYSCnPRc4PNV19PEn7R6oM3vwBbpP-K62g/viewform">
                                         <SubmitButton type="submit">
                                             <Send size={20} />
-                                            Enviar Mensagem
+                                            Formulário de Interesse
                                         </SubmitButton>
-                                    </Form>
-                                )}
+                                    </a>
                             </FormCard>
                         </FadeIn>
                     </ContactGrid>
