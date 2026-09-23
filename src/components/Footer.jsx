@@ -100,14 +100,8 @@ export default function Footer() {
                         <Subtitle>Contato</Subtitle>
                         <ContactRow>
                             <Mail size={18} color="#FF6B9D" />
-                            <FooterLink href="mailto:contato@steammetodologia.com">
-                                contato@steammetodologia.com
-                            </FooterLink>
-                        </ContactRow>
-                        <ContactRow>
-                            <Phone size={18} color="#00D9FF" />
-                            <FooterLink href="tel:+5511999999999">
-                                +55 (11) 99999-9999
+                            <FooterLink href="mailto:educacaosteamgepit@gmail.com">
+                                educacaosteamgepit@gmail.com
                             </FooterLink>
                         </ContactRow>
                     </div>
@@ -115,7 +109,7 @@ export default function Footer() {
 
                 <Divider>
                     <p>© 2026 Metodologia STEAM. Todos os direitos reservados.</p>
-                    <p>Projeto de Iniciação Científica | Incentivando meninas em STEAM</p>
+                    <p>Projeto de Iniciação Científica | GEPIT</p>
                 </Divider>
             </Container>
         </Wrapper>

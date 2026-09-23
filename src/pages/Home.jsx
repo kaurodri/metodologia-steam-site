@@ -326,8 +326,8 @@ export default function Home() {
                                             <Zap color="white" size={32} />
                                         </IconTile>
                                         <div>
-                                            <h3>Impacto Alcançado</h3>
-                                            <ImpactNumber>260+</ImpactNumber>
+                                            <h3>Público Alcançado</h3>
+                                            <ImpactNumber>300+</ImpactNumber>
                                             <p style={{ fontSize: '1.125rem', color: '#374151' }}>
                                                 pessoas já foram impactadas por nossas oficinas e
                                                 materiais didáticos.
