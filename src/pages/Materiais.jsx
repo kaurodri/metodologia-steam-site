@@ -218,10 +218,13 @@ export default function Materiais() {
 
                                         <MaterialFooter>
                                             <FormatLabel>{material.format}</FormatLabel>
-                                            <SmallButtonPrimary type="button">
-                                                <Download size={16} />
-                                                Material
-                                            </SmallButtonPrimary>
+                                            <a href={material.pasta}>
+                                                <SmallButtonPrimary type="button">
+
+                                                    <Download size={16} />
+                                                    Material
+                                                </SmallButtonPrimary>
+                                            </a>
                                         </MaterialFooter>
                                     </CardElevated>
                                 </FadeInUp>
